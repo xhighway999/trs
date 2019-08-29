@@ -1,0 +1,10 @@
+[submodule "args"]
+	path = args
+	url = https://github.com/Taywee/args.git
+[submodule "json"]
+	path = json
+	url = https://github.com/nlohmann/json.git
+	branch = master
+[submodule "miniz"]
+	path = miniz
+	url = https://github.com/richgel999/miniz.git

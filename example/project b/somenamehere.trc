@@ -1,0 +1,9 @@
+{
+  "project": "Project B",
+  "configs": [
+    {
+      "buildType": "All",
+      "folder": "res"
+    }
+  ]
+}

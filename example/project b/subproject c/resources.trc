@@ -1,0 +1,9 @@
+{
+  "project": "Subproject",
+  "configs": [
+    {
+      "buildType": "All",
+      "folder": "res"
+    }
+  ]
+}

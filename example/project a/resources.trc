@@ -1,0 +1,13 @@
+{
+  "project": "Project A",
+  "configs": [
+    {
+      "buildType": "All",
+      "folder": "res"
+    },
+    {
+      "buildType": "Debug",
+      "folder": "res-debug"
+    }
+  ]
+}

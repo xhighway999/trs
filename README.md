@@ -1,6 +1,6 @@
 # Tiny Resource System
 
-Trc is a small command line utility for finding resources and copying them to a path/archive/c source file. Contrary to other resource systems (Qt, Microsoft Resource Files) it is not bound to any particular framework.
+Trs is a small command line utility for finding resources and copying them to a path/archive/c source file. Contrary to other resource systems (Qt, Microsoft Resource Files) it is not bound to any particular framework.
 
 ## Getting Started
 
@@ -9,7 +9,7 @@ Be aware that this tool is still in development and the api / format can change 
 
 
 ### Usage
-Trc works by recursively searching for .trc files. A trc file is json code that contains the project name and the path to the resources.
+Trs works by recursively searching for .trc files. A trc file is json code that contains the project name and the path to the resources.
 
 A minimal trc file example:
 

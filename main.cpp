@@ -89,7 +89,7 @@ void fileToC(const fs::path& start,
              const fs::path& end,
              std::string_view name,
              size_t width) {
-  std::ifstream t(start);
+  std::ifstream t(start,std::ifstream::binary);
   std::stringstream buffer;
   buffer << t.rdbuf();
   std::string out;

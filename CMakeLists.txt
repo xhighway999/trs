@@ -8,7 +8,7 @@ add_executable(trs main.cpp
 
 
 option(trs_json_external "Use System/Parent json library" OFF)
-if(NOT ${xhfr_json_external})
+if(NOT ${trs_json_external})
 
     set(JSON_BuildTests OFF CACHE INTERNAL "")
   add_subdirectory(json)
